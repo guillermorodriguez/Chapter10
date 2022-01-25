@@ -63,7 +63,7 @@ function calculate_payment(){
         $('#label').text('Invalid loan amount provided.');
         return;
     }else{
-        loan = parseFloat(loan)
+        loan = parseFloat(loan);
     }
     
     if (isNaN(period) || period < 1 ){
