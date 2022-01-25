@@ -51,8 +51,6 @@ function calculate_payment(){
     var period = 30
     var credit_score = $('#Credit').val();
     var annual_salary = $('#Salary').val();
-    console.log(annual_salary);
-
 
     if (credit_score <= 650) {
         $('#label').text('Invalid credit score provided.');
